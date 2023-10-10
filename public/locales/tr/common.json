@@ -1,0 +1,23 @@
+{
+  "h1": "Générateur de CV gratuit",
+  "change-locale": "Change locale",
+  "name": "Votre nom",
+  "profession": "Votre profession ou spécialité",
+  "profile": "Profil",
+  "profile-detail": "Écrivez un paragraphe sur vous ici",
+  "detail": "DÉTAILS PERSONNELS",
+  "adress": "Adresse",
+  "enter-adress": "Entrez votre adresse",
+  "contant": "Communication",
+  "enter-email": "Entrer votre Email",
+  "enter-phone": "Entrez votre numéro de téléphone",
+  "experience": "l'expérience professionnelle",
+  "position": "position",
+  "position-detail": "Dans ce champ de texte, vous pouvez définir vos tâches. Essayez de vous concentrer sur les réalisations qui donnent à votre futur employeur un exemple concret des types de problèmes que vous pouvez résoudre.",
+  "education": "ÉDUCATION",
+  "degree": "Degré",
+  "school": "École",
+  "skills": "Capacités",
+  "enter-skill": "Entrez le talent",
+  "select-picture": "CHOISISSEZ VOTRE PHOTO"
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700%7CKarla:400,700%7CFira+Sans:400,500,600,700%7CMerriweather:400,700%7CNunito:400,600,700%7CSaira+Semi+Condensed:400,500,600,700');
+
+
+:root {
+    --color-primary: #227FE4;
+    --color-secondary: #fff;
+
+    --color-grey-1: #808080;
+
+    --text-2: #6D5D4B;
+
+
+    --color-dark-soft-1: #252525;
+    --color-dark-soft-2: rgba(0, 0, 0, 0.5);
+    --color-dark-soft-3: rgba(128, 128, 128, 0.2);
+    --color-light-soft-1: rgba(999, 999, 999, 0.8);
+    --color-green-1: #2ab96b;
+
+    --shadow: 0 4px 10px rgb(0 0 0 / 10%);
+    --shadow-2: 0 0 .2px .2px #fff;
+
+    --font: 'Poppins', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--text-2);
+    font-family: var(--font);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    line-height: 1.6;
+    overflow-x: hidden;
+    transition: background .3s ease-in;
+}
+
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    display: block;
+}
+
+input[type='color'] {
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--color-green-1);
+}
+
+input[type='color']::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type='color']::-webkit-color-swatch {
+    border: none;
+}
+
+p {
+    display: block;
+    font-size: 1.4rem;
+    padding: .5rem;
+    width: 100%;
+    word-break: break-all;
+}
+
+p:focus {
+    background: var(--color-dark-soft-3);
+    border-radius: 0.5rem;
+    outline: 0;
+}
+
+.title--2 {
+    color: var(--color-primary);
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+
+    0%,
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    20%,
+    60% {
+        -webkit-transform: rotate(-25deg);
+        transform: rotate(-25deg);
+    }
+
+    40%,
+    80% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+}
