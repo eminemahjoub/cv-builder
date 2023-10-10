@@ -24,7 +24,7 @@ function Header({ handlePrint }) {
       </button>
       <button className='btn' onClick={changeLanguage}>
         <EarthIcon />
-        {language === 'en' ? 'Fr' : 'En'}
+        {language === 'en' ? 'Tr' : 'En'}
       </button>
 
       <Dropdown

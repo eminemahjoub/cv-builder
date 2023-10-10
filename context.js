@@ -11,7 +11,7 @@ export const AppProvider = ({ children }) => {
   const changeLanguage = () => {
     console.log(i18n.language === 'en')
     if (i18n.language === 'en') {
-      i18n.changeLanguage('tr')
+      i18n.changeLanguage('Tr')
     } else {
       i18n.changeLanguage('en')
     }
